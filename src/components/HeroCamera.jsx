@@ -28,7 +28,7 @@ const HeroCamera = ({ children, isMobile }) => {
 
 HeroCamera.propTypes = {
 	children: PropTypes.node.isRequired,
-	isMobile: PropTypes.boolean,
+	isMobile: PropTypes.bool,
 }
 
 export default HeroCamera
